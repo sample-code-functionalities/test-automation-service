@@ -1,0 +1,10 @@
+# Application
+spring:
+  main:
+    web-application-type: none
+
+selenium:
+  headlessBrowser: true                       # false/true(to run chrome in background)
+  targetUrl: https://localhost:3000/login
+  browser: chrome                       #chrome or firefox
+  remoteBrowser: normal

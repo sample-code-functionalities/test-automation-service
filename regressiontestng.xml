@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultipleSuiteTestRunner">
+    <suite-files>
+        <suite-file path="login/logintestng.xml" />
+        <suite-file path="common/commontestng.xml" />
+        <suite-file path="api/apitesting.xml" />
+    </suite-files>
+</suite>
